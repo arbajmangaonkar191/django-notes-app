@@ -47,9 +47,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-               script{
-                   deploy()
-               }
+               sh 'docker compose down && docker compose up -d'
             }
         }
     }
