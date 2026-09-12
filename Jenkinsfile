@@ -39,7 +39,7 @@ pipeline {
                 script {
                     push(
                         "django_app:latest",
-                        "arbajmangaonkar"
+                        "Docker-hub"
                     )
                 }
             }
