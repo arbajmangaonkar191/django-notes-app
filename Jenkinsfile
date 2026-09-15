@@ -38,8 +38,8 @@ pipeline {
             steps {
                 script {
                     push(
-                        "django_app:latest",
-                        "Docker-hub"
+                        "Docker-hub",
+                        "django_app:latest"
                     )
                 }
             }
